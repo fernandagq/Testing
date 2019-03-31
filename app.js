@@ -1,3 +1,5 @@
+//creating variables for terminal commands.
+
 const inputString = process.argv;
 const command = inputString[2];
 const num1 = parseInt(inputString[3]);
@@ -22,6 +24,8 @@ multiplication = (num1, num2) =>{
     result = num1 * num2;
     return result
 }
+
+//setting up switch case to render results based on user input 
 switch (command) {
     case "add":
         addition(num1, num2);
@@ -44,6 +48,7 @@ exports.multiplication = multiplication
 exports.division = division
 exports.subtraction = subtraction
 console.log(result);
+
 
 
 

@@ -1,5 +1,7 @@
 const testCalc = require ('./app');
 
+//setting up tests
+//multiple created to ensure results are not a fluke
 test('add', () => {
   expect(testCalc.addition(1, 2)).toBe(3);
   expect(testCalc.addition(5, 5)).toBe(10);
@@ -28,3 +30,4 @@ test('division', () => {
   expect(testCalc.division(40, 4)).toBe(10);
 
 });
+
