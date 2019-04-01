@@ -10,5 +10,6 @@ An app that runs basic calculator commands and populates results in terminal. Je
   >Jest
 
 ### Examples: 
+![](images/img1.png)
 
 
